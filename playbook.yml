@@ -19,7 +19,7 @@
       docker_container:
         name: apache2
         state: started
-        image: herlinyoga/httpd:5
+        image: herlinyoga604/httpd:5
         published_ports:
           - 8081:80
         recreate: yes
